@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/feed"
+            android:icon="@drawable/feed"
+            android:title="Feed" />
+        <item
+            android:id="@+id/my_friends"
+            android:icon="@drawable/friends"
+            android:title="Friends" />
+        <item
+            android:id="@+id/global_feed"
+            android:icon="@drawable/current_affairs"
+            android:title="Current Affairs" />
+        <item
+            android:id="@+id/my_account"
+            android:icon="@drawable/my_account"
+            android:title="My Account" />
+        <item
+            android:id="@+id/saved_posts"
+            android:icon="@drawable/saved_posts"
+            android:title="Saved Posts"/>
+    </group>
+
+    <item android:title="More">
+        <menu>
+            <item
+                android:id="@+id/settings"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Settings" />
+            <item
+                android:id="@+id/about_us"
+                android:icon="@drawable/about_us"
+                android:title="About Us" />
+        </menu>
+    </item>
+</menu>
